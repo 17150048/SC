@@ -162,21 +162,6 @@ public class SalaryCalc implements ActionListener{
 	}
 
 
-//метод добавления текстовых меток
-    public void addLabel(JComponent container, String name, Color color){
-        //создаем тестовую метку с именем name
-        JLabel lb = new JLabel(name);
-        //устанавливаем максимально допустимый размер
-        lb.setMaximumSize(new Dimension(400,20));
-        //устанавливаем цвета текста
-        lb.setForeground(color);
-        //устанавливаем выравнивание по правому краю
-        lb.setHorizontalAlignment(JLabel.RIGHT);
-        //добавляем рамку
-        lb.setBorder(new EtchedBorder());
-        //Добавляем текстовую метку в панель
-        container.add(lb);
-    }
     //метод добавления текстовых полей
     public JTextField addTextField(JComponent container){
         //Создаем текстовое поле
